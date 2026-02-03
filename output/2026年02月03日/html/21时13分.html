@@ -1,0 +1,98 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2026-02-03 21:13:06</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">电商 商家 集运 大卖 TEMU Shopify 亚马逊</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7602431469558025774/" target="_blank" class="news-link">主播造谣外卖商家退出平台被拘</a> [6] <font color='grey'>- 21时13分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%BB%E6%92%AD%E9%80%A0%E8%B0%A3%E5%A4%96%E5%8D%96%E5%95%86%E5%AE%B6%E9%80%80%E5%87%BA%E5%B9%B3%E5%8F%B0%E8%A2%AB%E6%8B%98" target="_blank" class="news-link">主播造谣外卖商家退出平台被拘</a> [6] <font color='grey'>- 21时13分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%BB%E6%92%AD%E9%80%A0%E8%B0%A3%E5%A4%96%E5%8D%96%E5%95%86%E5%AE%B6%E9%80%80%E5%87%BA%E5%B9%B3%E5%8F%B0%E8%A2%AB%E6%8B%98" target="_blank" class="news-link">主播造谣外卖商家退出平台被拘</a> [6] <font color='grey'>- 21时13分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">外贸 进出口 海关 关税 贸易政策 跨境电商 汇率 外贸订单 外贸企业 一带一路 RCEP WTO 自由贸易协定 贸易壁垒 外汇管制 货运代理 集装箱运价 报关 清关 出口退税 国际贸易 外贸展会 外贸风险 贸易</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3764775" target="_blank" class="news-link">特朗普：莫迪同意停购俄油，美印达成贸易协议，将降低印度关税</a> [6] <font color='grey'>- 21时13分</font><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32521377" target="_blank" class="news-link">释新闻｜美印贸易协议达成：关税已降，俄油难断？</a> [8] <font color='grey'>- 21时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">货币对 货币 外汇 汇率 宏观经济 央行</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3764730" target="_blank" class="news-link">美制造业数据托底风险偏好，美股、加密货币齐反弹、美元续涨，金银企稳，原油重挫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时13分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%AE%E8%A1%8C%EF%BC%9A%E5%B0%86%E5%BC%80%E5%B1%958000%E4%BA%BF%E5%85%83%E4%B9%B0%E6%96%AD%E5%BC%8F%E9%80%86%E5%9B%9E%E8%B4%AD" target="_blank" class="news-link">央行：将开展8000亿元买断式逆回购</a> [30] <font color='grey'>- 21时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E5%A4%AE%E8%A1%8C%EF%BC%9A%E5%B0%86%E5%BC%80%E5%B1%958000%E4%BA%BF%E5%85%83%E4%B9%B0%E6%96%AD%E5%BC%8F%E9%80%86%E5%9B%9E%E8%B4%AD" target="_blank" class="news-link">央行：将开展8000亿元买断式逆回购</a> [30]</li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_32521377" target="_blank" class="news-link">释新闻｜美印贸易协议达成：关税已降，俄油难断？</a> [8]</li></ul></div>
+        </body>
+        </html>
+        
